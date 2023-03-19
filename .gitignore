@@ -1,0 +1,7 @@
+/my_env/
+/saved_models/
+convert.py
+splice.py
+inference.ipynb
+.ipynb_checkpoints/
+siamese-vgg19_11.h5
