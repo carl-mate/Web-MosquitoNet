@@ -1,40 +1,61 @@
-/* html { 
-    width: 100%; 
-    height:100%; 
+body {
+    background-color: #f5f5f5;
 }
 
-body { 
-	width: 100%;
-	height:100%;
-	font-family: 'Open Sans', sans-serif;
-	color: black;
-	font-size: 18px;
-	text-align:center;
-	letter-spacing:1.2px;
+.navbar {
+    background-color: #c1e2be;
 }
 
-input { 
-	width: 100%; 
-	margin-bottom: 10px; 
-	background: rgba(0,0,0,0.3);
-	border: none;
-	outline: none;
-	padding: 10px;
-	font-size: 13px;
-	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	border: 1px solid rgba(0,0,0,0.3);
-	border-radius: 4px;
-	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
-	-webkit-transition: box-shadow .5s ease;
-	-moz-transition: box-shadow .5s ease;
-	-o-transition: box-shadow .5s ease;
-	-ms-transition: box-shadow .5s ease;
-	transition: box-shadow .5s ease;
+.navbar-brand {
+    color: #333333;
+    font-weight: bold;
 }
 
-input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+.row-classify {
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.col-classify {
+    background-color: #e5e5e5;
+    margin: 25px;
+    padding: 20px;
+}
+
+.spec {
+  border: 3.5px solid black;
+}
+
+.spec-outline {
+    display: inline-block;
+}
+
+.spec-wrapper {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pagecontent {
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: #c1e2be;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+
+/* .spec-outline {
+    outline: 3.5px solid black; /* Add desired outline color here */
+    display: inline-block;
+    margin: 5px; /* Add desired margin value here */
+}
  */
-.chart {
-height: 700px !important;
-}
+
