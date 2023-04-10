@@ -10,7 +10,7 @@
 <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="#" class="navbar-brand">MosquitoNet</a>
             
@@ -45,7 +45,7 @@
       <h1>Upload and Classify Audio</h1>
     </div>
     <div class="container text-center ">
-        <div class="row row-classify rounded-pill">
+        <div class="row row-classify rounded">
             <div class="col d-flex justify-content-center align-items-center col-classify rounded shadow">
                 {% if logmel_image and mfcc_image %}
                     <figure class="fig-container">
@@ -87,16 +87,16 @@
               data: {{ prediction if prediction else 'null' }},
               borderWidth: 1,
               backgroundColor: [
-                '#ffcd56',
-                '#ff6384',
-                '#36a2eb',
-                '#fd6b19',
-                '#4bc0c0',
-                '#9966ff',
-                '#009933',
-                '#ff9900',
-                '#ff69b4',
-                '#66cccc'
+                '#9fd9b7',
+                '#82d2a7',
+                '#65cba0',
+                '#48c396',
+                '#2ba88c',
+                '#25987a',
+                '#1f8669',
+                '#186558',
+                '#124d47',
+                '#0c3b35'
               ]
             }]
           },
