@@ -20,7 +20,7 @@ Run the notebook. It should be running on http://127.0.0.1:5000
 ### Step 5:
 Navigate to http://127.0.0.1:5000 Success!
 
-# Video
+## Video
 
 https://github.com/user-attachments/assets/6a5418c4-2548-40ce-8b29-8904f0c517fb
 
